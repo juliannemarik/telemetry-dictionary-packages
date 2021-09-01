@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "bootstrap": "lerna bootstrap --hoist"
+    "build": "lerna run build",
+    "prepare": "npm run bootstrap && npm run build"
   },
   "repository": {
     "type": "git",
