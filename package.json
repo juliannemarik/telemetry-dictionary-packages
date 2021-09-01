@@ -1,0 +1,26 @@
+{
+  "name": "@juliannemarik/telemetry-dictionary-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "bootstrap": "lerna bootstrap --hoist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliannemarik/telemetry-dictionary-packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliannemarik/telemetry-dictionary-packages/issues"
+  },
+  "homepage": "https://github.com/juliannemarik/telemetry-dictionary-packages#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "lerna": "^4.0.0",
+    "typescript": "^4.4.2"
+  }
+}
