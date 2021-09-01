@@ -7,8 +7,7 @@
     "bootstrap": "lerna bootstrap --hoist",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "build": "lerna run build",
-    "prepare": "npm run bootstrap && npm run build"
+    "publish": "lerna run build && lerna publish"
   },
   "repository": {
     "type": "git",
