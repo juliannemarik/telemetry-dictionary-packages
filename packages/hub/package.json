@@ -8,14 +8,12 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "rollup": "ts-node ../../scripts/rollup.ts"
   },
   "author": "",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "typescript": "^4.4.2"
   }
 }

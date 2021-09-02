@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -15,6 +18,7 @@
   },
   "author": "",
   "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://github.com/juliannemarik/telemetry-dictionary-packages/issues"
   },
@@ -22,6 +26,9 @@
   "devDependencies": {
     "@types/node": "^16.7.10",
     "lerna": "^4.0.0",
+    "lodash": "^4.17.21",
+    "pluralize": "^8.0.0",
+    "ts-node": "^10.2.1",
     "typescript": "^4.4.2"
   }
 }
