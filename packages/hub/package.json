@@ -2,8 +2,8 @@
   "name": "@juliannemarik/telemetry-dictionary-hub",
   "version": "1.0.12",
   "description": "",
-  "main": "dist/dictionary.js",
-  "types": "dist/types.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
