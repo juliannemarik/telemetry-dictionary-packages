@@ -1,4 +1,4 @@
-import CommonTelemetryDictionary from '@juliannemarik/telemetry-dictionary-common';
+import { dictionary as CommonDictionary } from '@juliannemarik/telemetry-dictionary-common';
 import { ITelemetryCategory } from './types';
 
 const authCategory:ITelemetryCategory = {
@@ -114,7 +114,7 @@ const usersCategory:ITelemetryCategory = {
   actions: {}
 }
 
-class Dictionary extends CommonTelemetryDictionary {
+class Dictionary extends CommonDictionary {
   auth = authCategory;
   content = contentCategory;
   data = dataCategory;
