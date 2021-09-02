@@ -1,4 +1,5 @@
 import { ITelemetryCategory } from './types';
+import rollup from './rollup.json';
 
 const authCategory:ITelemetryCategory = {
   id: 'Auth',
@@ -127,5 +128,5 @@ class Dictionary {
   users = usersCategory;
 }
 
-export const dictionary = new Dictionary ();
+export const dictionary = rollup;
 export default new Dictionary ();
