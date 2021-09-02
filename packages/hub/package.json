@@ -1,6 +1,6 @@
 {
   "name": "@juliannemarik/telemetry-dictionary-hub",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "dist/dictionary.js",
   "typings": "dist/types.d.ts",
