@@ -1,6 +1,6 @@
 {
   "name": "@juliannemarik/telemetry-dictionary-hub",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/dictionary.js",
   "types": "dist/types.d.ts",
@@ -19,6 +19,6 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "@juliannemarik/telemetry-dictionary-common": "^1.0.4"
+    "@juliannemarik/telemetry-dictionary-common": "^1.0.5"
   }
 }
