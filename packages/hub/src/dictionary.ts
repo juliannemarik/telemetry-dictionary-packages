@@ -128,3 +128,4 @@ class Dictionary {
 }
 
 export const dictionary = new Dictionary ();
+export default new Dictionary ();
