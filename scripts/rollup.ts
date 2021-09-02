@@ -6,7 +6,7 @@ const { singular } = require('pluralize');
 const DICTIONARY_PATH = path.resolve(process.cwd(), './src/dictionary.ts');
 const ROLLED_DICTIONARY_PATH = path.resolve(process.cwd(), './src/rollup.json');
 
-const dictionaryRollup = () => {
+const init = () => {
   let output = {};
   
   const dictionary = require(DICTIONARY_PATH).default;
@@ -38,6 +38,6 @@ const rollup = (key:string, value:any, configAcc:object, rollupAcc:object = {}) 
   return rollupAcc;
 }
 
-dictionaryRollup();
+init();
 
 export {};
