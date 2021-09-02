@@ -2,7 +2,7 @@
   "name": "@juliannemarik/telemetry-dictionary-hub",
   "version": "1.0.7",
   "description": "",
-  "main": "dist/dictionary.js",
+  "main": "dist/index.js",
   "types": "dist/types.d.ts",
   "files": [
     "dist/**/*"
@@ -17,8 +17,5 @@
   },
   "devDependencies": {
     "typescript": "^4.4.2"
-  },
-  "dependencies": {
-    "@juliannemarik/telemetry-dictionary-common": "^1.0.5"
   }
 }

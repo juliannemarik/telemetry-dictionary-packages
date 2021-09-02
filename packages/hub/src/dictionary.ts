@@ -1,4 +1,3 @@
-// import { dictionary as CommonDictionary } from '@juliannemarik/telemetry-dictionary-common';
 import { ITelemetryCategory } from './types';
 
 const authCategory:ITelemetryCategory = {
