@@ -1,6 +1,5 @@
-// import { BaseTelemetryDictionary } from './base';
+import CommonTelemetryDictionary from '@juliannemarik/telemetry-dictionary-common';
 import { ITelemetryCategory } from './types';
-// import rollup from '../rollup/hub.json';
 
 const authCategory:ITelemetryCategory = {
   id: 'Auth',
@@ -115,7 +114,7 @@ const usersCategory:ITelemetryCategory = {
   actions: {}
 }
 
-class Dictionary {
+class Dictionary extends CommonTelemetryDictionary {
   auth = authCategory;
   content = contentCategory;
   data = dataCategory;
@@ -129,5 +128,4 @@ class Dictionary {
   users = usersCategory;
 }
 
-// export const hubTelemetryDictionary = rollup;
 export default new Dictionary();
