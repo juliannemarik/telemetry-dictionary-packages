@@ -1,6 +1,6 @@
 {
   "name": "@juliannemarik/telemetry-dictionary-common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/dictionary.js",
   "types": "dist/index.d.ts",
