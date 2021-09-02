@@ -4,4 +4,4 @@ class Dictionary {
   }
 }
 
-export default new Dictionary();
+export const dictionary = new Dictionary ();

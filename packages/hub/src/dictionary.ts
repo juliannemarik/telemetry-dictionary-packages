@@ -128,4 +128,4 @@ class Dictionary extends CommonTelemetryDictionary {
   users = usersCategory;
 }
 
-export default new Dictionary();
+export const dictionary = new Dictionary ();
