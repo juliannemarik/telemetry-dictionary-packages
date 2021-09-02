@@ -127,5 +127,5 @@ class Dictionary {
   users = usersCategory;
 }
 
-export const dictionary = new Dictionary ();
+export const hubDictionary = new Dictionary ();
 export default new Dictionary ();
