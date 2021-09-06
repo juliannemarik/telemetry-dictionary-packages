@@ -19,7 +19,7 @@ const init = () => {
   write(ROLLED_DICTIONARY_PATH, JSON.stringify(output, null, 2), 'utf-8');
 }
 
-const rollup = (key:string, value:any, configAcc:object, rollupAcc:object = {}) => {
+const rollup = (key:string, value:any, configAcc:object, rollupAcc:object = {}, lastKey?:string) => {
   const rollupElements = Object.entries(value).filter(([ key1, value1 ]:any) => {
     return typeof value1 === 'object';
   });
@@ -30,11 +30,14 @@ const rollup = (key:string, value:any, configAcc:object, rollupAcc:object = {}) 
     rollupElements.forEach(([ key2, value2 ]:any) => {  
       Object.entries(value2).forEach(([ key3, value3 ]:any) => {
         set(configAcc, singular(key2), value3.id);
-        rollup([ key, key3 ].join('.'), value3, configAcc, rollupAcc)
+        rollup([ key, key3 ].join('.'), value3, configAcc, rollupAcc, singular(key2))
       })
     });
   }
 
+  if (lastKey) {
+    delete configAcc[lastKey];
+  }
   return rollupAcc;
 }
 
