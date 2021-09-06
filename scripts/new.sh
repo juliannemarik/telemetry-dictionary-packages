@@ -12,7 +12,7 @@ cp "${TEMPLATE_DIRECTORY_PATH}/index.ts" "${PACKAGE_DIRECTORY_PATH}/src/index.ts
 cp "${TEMPLATE_DIRECTORY_PATH}/dictionary.ts" "${PACKAGE_DIRECTORY_PATH}/src/dictionary.ts"
 cp "${TEMPLATE_DIRECTORY_PATH}/types.ts" "${PACKAGE_DIRECTORY_PATH}/src/types.ts"
 cp "${TEMPLATE_DIRECTORY_PATH}/rollup.json" "${PACKAGE_DIRECTORY_PATH}/src/rollup.json"
-cp "${TEMPLATE_DIRECTORY_PATH}/tsconfig.json" "${PACKAGE_DIRECTORY_PATH}/tsconfig.json"
+cp "${TEMPLATE_DIRECTORY_PATH}/ts_config.json" "${PACKAGE_DIRECTORY_PATH}/tsconfig.json"
 cp "${TEMPLATE_DIRECTORY_PATH}/package.json" "${PACKAGE_DIRECTORY_PATH}/package.json"
 
 # update files to be package-specific
