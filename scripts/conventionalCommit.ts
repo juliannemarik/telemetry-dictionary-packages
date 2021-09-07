@@ -9,6 +9,8 @@ chore(hub): add dictionary entry
 `
 
 const init = () => {
+  console.log('INIT')
+  debugger;
   const COMMIT_MESSAGE_FILE = path.resolve(process.cwd(), '.git/COMMIT_EDITMSG');
   
   const initialCommitMessage = read(COMMIT_MESSAGE_FILE, 'utf-8');

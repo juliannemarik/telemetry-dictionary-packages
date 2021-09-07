@@ -1,2 +1,1 @@
-echo "PREPARE COMMIT MESSAGE: $1"
 npm run commitmsg
