@@ -1,0 +1,2 @@
+npm run rollup
+git add packages/*/src/rollup.json

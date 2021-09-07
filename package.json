@@ -11,9 +11,10 @@
     "new": "./scripts/new.sh",
     "format": "lerna run format",
     "lint": "lerna run lint",
+    "rollup": "lerna run rollup",
+    "prepare": "husky install",
     "prepublishOnly": "npm run lint",
-    "publish": "lerna run build && lerna publish",
-    "rollup": "lerna run rollup"
+    "publish": "lerna run build && lerna publish"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "ts-node": "^10.2.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.2",
+    "husky": "^7.0.0"
   }
 }
