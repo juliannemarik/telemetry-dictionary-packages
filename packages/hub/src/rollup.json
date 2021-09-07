@@ -3,13 +3,13 @@
     "favorite": {
       "actionsMenu": {
         "add": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Favorite",
           "element": "Actions Menu",
           "label": "Add"
         },
         "remove": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Favorite",
           "element": "Actions Menu",
           "label": "Remove"
@@ -17,13 +17,13 @@
       },
       "stickyHero": {
         "add": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Favorite",
           "element": "Sticky Hero",
           "label": "Add"
         },
         "remove": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Favorite",
           "element": "Sticky Hero",
           "label": "Remove"
@@ -33,13 +33,13 @@
     "download": {
       "actionsMenu": {
         "open": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Download",
           "element": "Actions Menu",
           "label": "Open"
         },
         "start": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Download",
           "element": "Actions Menu",
           "label": "Start"
@@ -47,13 +47,13 @@
       },
       "stickyHero": {
         "open": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Download",
           "element": "Sticky Hero",
           "label": "Open"
         },
         "start": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Download",
           "element": "Sticky Hero",
           "label": "Start"
@@ -61,13 +61,13 @@
       },
       "downloadCard": {
         "complete": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Download",
           "element": "Download Card",
           "label": "Complete"
         },
         "error": {
-          "category": "Engagement Test",
+          "category": "Engagement",
           "action": "Download",
           "element": "Download Card",
           "label": "Error"
