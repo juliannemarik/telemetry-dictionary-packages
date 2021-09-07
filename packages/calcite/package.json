@@ -1,5 +1,5 @@
 {
-  "name": "@juliannemarik/telemetry-dictionary-ago",
+  "name": "@juliannemarik/telemetry-dictionary-calcite",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
