@@ -1,5 +1,5 @@
 const path = require('path');
-const { writeFileSync: write } = require('fs');
+const { writeFileSync: write, readFileSync: read } = require('fs');
 
 const commitMessage = `
 chore(hub): add dictionary entry
@@ -11,7 +11,9 @@ chore(hub): add dictionary entry
 const init = () => {
   const COMMIT_MESSAGE_FILE = path.resolve(process.cwd(), '.git/COMMIT_EDITMSG');
   
-  console.log('COMMIT MESSAGE FILE', COMMIT_MESSAGE_FILE)
+  const initialCommitMessage = read(COMMIT_MESSAGE_FILE, 'utf-8');
+
+  console.log('INITIAL', initialCommitMessage,)
   write(COMMIT_MESSAGE_FILE, commitMessage);
 }
 
