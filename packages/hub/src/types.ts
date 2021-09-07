@@ -5,7 +5,7 @@ export interface ITelemetryLabel {
 export interface ITelemetryElement {
   id: string;
   definition?: string;
-  labels: { [key:string]: ITelemetryLabel }
+  labels: { [key: string]: ITelemetryLabel };
 }
 export interface ITelemetryAction {
   id: string;

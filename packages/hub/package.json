@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
     "rollup": "ts-node ../../scripts/rollup.ts"
   },
   "author": "",

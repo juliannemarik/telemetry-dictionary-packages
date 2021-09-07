@@ -1,27 +1,28 @@
 import { ITelemetryCategory } from './types';
 import rollup from './rollup.json';
 
-const authCategory:ITelemetryCategory = {
+const authCategory: ITelemetryCategory = {
   id: 'Auth',
   definition: 'interactions involving authentication',
   actions: {}
-}
+};
 
-const contentCategory:ITelemetryCategory =  {
-  id : 'Content',
+const contentCategory: ITelemetryCategory = {
+  id: 'Content',
   definition: 'interactions which affect a content item',
   actions: {}
-}
+};
 
-const dataCategory:ITelemetryCategory =  {
+const dataCategory: ITelemetryCategory = {
   id: 'Data',
-  definition: 'interactions associated with altering how data is being visualized (i.e. in a chart, table, map etc.)',
+  definition:
+    'interactions associated with altering how data is being visualized (i.e. in a chart, table, map etc.)',
   actions: {}
-}
+};
 
-const engagementCategory:ITelemetryCategory = {
+const engagementCategory: ITelemetryCategory = {
   id: 'Engagement',
-  definition: 
+  definition:
     'interactions across content/groups/users which we designate as being very important in measuring user engagement - i.e. downloading, favoriting, following, etc.',
   actions: {
     favorite: {
@@ -70,49 +71,51 @@ const engagementCategory:ITelemetryCategory = {
       }
     }
   }
-}
+};
 
-const interactionCategory:ITelemetryCategory =  {
+const interactionCategory: ITelemetryCategory = {
   id: 'Interaction',
-  definition: 'interactions across content/groups/users which we designate as being less important in measuring user engagement, but still useful to track - i.e. opening a team info panel, viewing a content license, etc.',
+  definition:
+    'interactions across content/groups/users which we designate as being less important in measuring user engagement, but still useful to track - i.e. opening a team info panel, viewing a content license, etc.',
   actions: {}
-}
+};
 
-const groupsCategory:ITelemetryCategory =  {
+const groupsCategory: ITelemetryCategory = {
   id: 'Groups',
   definition: 'interactions which affect a group item',
   actions: {}
-}
+};
 
-const navigationCategory:ITelemetryCategory =  {
+const navigationCategory: ITelemetryCategory = {
   id: 'Navigation',
   definition: 'interactions which effectively navigate the user to a new view',
   actions: {}
-}
+};
 
-const searchCategory:ITelemetryCategory =  {
+const searchCategory: ITelemetryCategory = {
   id: 'Search',
   definition: 'interactions involving searching for items',
   actions: {}
-}
+};
 
-const shareCategory:ITelemetryCategory = {
+const shareCategory: ITelemetryCategory = {
   id: 'Share',
   definition: 'interactions involving sharing items',
   actions: {}
-}
+};
 
-const statusCategory:ITelemetryCategory = {
+const statusCategory: ITelemetryCategory = {
   id: 'Status',
-  definition: 'non-interactive events for logging API responses - these will often have an associated interactive event logged in succession',
+  definition:
+    'non-interactive events for logging API responses - these will often have an associated interactive event logged in succession',
   actions: {}
-}
+};
 
-const usersCategory:ITelemetryCategory = {
+const usersCategory: ITelemetryCategory = {
   id: 'Users',
   definition: 'interactions which affect a user item',
   actions: {}
-}
+};
 
 class Dictionary {
   auth = authCategory;
@@ -129,4 +132,4 @@ class Dictionary {
 }
 
 export const dictionary = rollup;
-export default new Dictionary ();
+export default new Dictionary();
