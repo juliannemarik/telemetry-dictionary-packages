@@ -15,7 +15,7 @@
     "commitmsg": "ts-node ./scripts/commitMsg.ts",
     "prepare": "husky install",
     "prepublishOnly": "npm run lint",
-    "publish": "lerna run build && lerna publish"
+    "publish": "lerna run build && lerna publish --yes"
   },
   "repository": {
     "type": "git",
