@@ -13,7 +13,7 @@
     "lint": "lerna run lint",
     "rollup": "lerna run rollup",
     "commitmsg": "ts-node ./scripts/conventionalCommit.ts",
-    "prepare": "husky install",
+    "prepare": "is-ci || husky install",
     "prepublishOnly": "npm run lint",
     "publish": "lerna run build && lerna publish --yes",
     "publishManual": "lerna run build && lerna publish"
