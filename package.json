@@ -16,7 +16,7 @@
     "prepare": "is-ci || husky install",
     "prepublishOnly": "npm run lint",
     "publish": "lerna run build && lerna publish --yes",
-    "publishManual": "HUSKY=0 lerna run build && lerna publish"
+    "publishManual": "lerna run build && HUSKY=0 lerna publish"
   },
   "repository": {
     "type": "git",
