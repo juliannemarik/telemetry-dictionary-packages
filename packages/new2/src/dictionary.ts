@@ -1,7 +1,7 @@
 import rollup from './rollup.json';
 
 const authCategory = {
-  id: 'Auth',
+  id: 'Auth Test',
   definition: 'interactions involving authentication',
   actions: {}
 };
