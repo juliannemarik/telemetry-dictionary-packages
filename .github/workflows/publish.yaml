@@ -8,9 +8,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      CI: true
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}gi
 
     steps:
       - name: Checkout master branch
@@ -34,3 +31,5 @@ jobs:
 
       - name: Publish package
         run: yarn run publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
