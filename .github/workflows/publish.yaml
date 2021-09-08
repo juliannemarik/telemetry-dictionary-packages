@@ -13,8 +13,10 @@ jobs:
       - name: Checkout master branch
         uses: actions/checkout@v2
         with:
-          ref: master
+          fetch-depth: "0"
 
+      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+      
       - name: Authenticate with Registry
         uses: actions/setup-node@v2
         with:
