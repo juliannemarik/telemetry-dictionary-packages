@@ -21,7 +21,7 @@ const dataCategory: ITelemetryCategory = {
 };
 
 const engagementCategory: ITelemetryCategory = {
-  id: 'Engagement Test',
+  id: 'Engagement',
   definition:
     'interactions across content/groups/users which we designate as being very important in measuring user engagement - i.e. downloading, favoriting, following, etc.',
   actions: {
