@@ -17,5 +17,3 @@ jobs:
 
       - id: publish
         run: npm run publish
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
