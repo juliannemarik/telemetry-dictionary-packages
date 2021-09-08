@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.5](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-hub@1.2.4...@juliannemarik/telemetry-dictionary-hub@1.2.5) (2021-09-08)
+
+
+### Bug Fixes
+
+* **hub:** update dictionary entry/entries ([70a8659](https://github.com/juliannemarik/telemetry-dictionary-packages/commit/70a8659d329c6f327745c581937f67830011b39d))
+
+
+
+
+
 ## [1.2.4](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-hub@1.2.3...@juliannemarik/telemetry-dictionary-hub@1.2.4) (2021-09-08)
 
 
