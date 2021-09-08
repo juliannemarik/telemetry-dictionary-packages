@@ -15,7 +15,7 @@ jobs:
       - name: Checkout master branch
         uses: actions/checkout@v1
         with:
-          ref: master
+          fetch-depth: 0
 
       - name: Authenticate with Registry
         uses: actions/setup-node@v2
