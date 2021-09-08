@@ -45,17 +45,32 @@ const questions = [
     when: ({ scope }) => {
         return scope === 'root';
     }
+  },
+  {
+    type: 'confirm',
+    name: 'breaking',
+    message: 'Is this a breaking change?',
+    default: false
+  },
+  {
+    type: 'message',
+    name: 'breakingDescription',
+    message: 'Describe the breaking change:',
+    when: ({ breaking }) => {
+      return breaking;
+    }
   }
 ]
 
-const generateCommitMessage = ({ type, scope, description }) => {
+const generateCommitMessage = ({ type, scope, description, breaking, breakingDescription }) => {
   if (!type) {
     const typeMap = { [ NEW ] : 'feat', [ ADD ]: 'feat',  [ UPDATE ]: 'fix' }
     type = typeMap[description];
   }
 
   return `${type}(${scope}): ${description}
-  
+
+${breaking ? `BREAKING CHANGE: ${breakingDescription} \n` : ''}
 # This is an automated commit message. In order for CI/CD to work
 # correctly, do not modify the format of this message`;
 }
