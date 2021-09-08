@@ -76,6 +76,7 @@ ${breaking ? `BREAKING CHANGE: ${breakingDescription} \n` : ''}
 }
 
 const init = async () => {  
+  console.log('INIT!!!');
   const answers = await prompt(questions);
   const commitMessage = generateCommitMessage(answers);
   
