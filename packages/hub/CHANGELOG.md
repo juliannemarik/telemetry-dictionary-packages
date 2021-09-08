@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.7 (2021-09-08)
+
+
+### Bug Fixes
+
+* **hub:** update dictionary entry/entries ([29cd67e](https://github.com/juliannemarik/telemetry-dictionary-packages/commit/29cd67e5b01e283f74779c0dfc4adedd1a87ef29))
+
+
+
+
+
 ## 1.1.6 (2021-09-08)
 
 
