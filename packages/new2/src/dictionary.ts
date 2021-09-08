@@ -1,6 +1,14 @@
 import rollup from './rollup.json';
 
-class Dictionary {}
+const authCategory = {
+  id: 'Auth',
+  definition: 'interactions involving authentication',
+  actions: {}
+};
+
+class Dictionary {
+  auth = authCategory
+}
 
 export const dictionary = rollup;
 export default new Dictionary ();
