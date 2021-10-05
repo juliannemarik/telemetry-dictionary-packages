@@ -1,0 +1,17 @@
+{
+  "name": "@juliannemarik/telemetry-dictionary-hub2",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "addDimension": "ts-node ../../scripts/addDimension.ts hub2",
+    "addEntry": "ts-node ../../scripts/addEntry.ts hub2"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "category": {
+    "CONTENT": "Content",
+    "GROUPS": "Groups",
+    "USERS": "Users",
+    "ENGAGEMENT": "Engagement",
+    "INTERACTION": "Interaction"
+  },
+  "action": {
+    "CREATE": "Create",
+    "DELETE": "Delete",
+    "FAVORITE": "Favorite"
+  },
+  "label": {
+    "ADD": "Add"
+  },
+  "details": {
+    "UPLOAD": "Upload",
+    "URL": "URL"
+  },
+  "element": {
+    "APP_BLOCKS": "App Blocks",
+    "NAV_BAR": "Nav Bar",
+    "MODAL": "Modal",
+    "CONTENT_HERO": "Content Hero"
+  }
+}

@@ -9,6 +9,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "new": "./scripts/new.sh",
+    "new2": "ts-node ./scripts/new2.ts",
     "format": "lerna run format",
     "lint": "lerna run lint",
     "rollup": "lerna run rollup",

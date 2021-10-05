@@ -1,0 +1,49 @@
+{
+  "content": {
+    "action_create": {
+      "element_appBlocks": {
+        "category": "Content",
+        "action": "Create",
+        "element": "App Blocks"
+      },
+      "details_upload": {
+        "element_navBar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "Upload",
+          "element": "Nav Bar"
+        }
+      },
+      "details_url": {
+        "element_navBar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "URL",
+          "element": "Nav Bar"
+        }
+      }
+    },
+    "action_delete": {
+      "element_modal": {
+        "category": "Content",
+        "action": "Delete",
+        "element": "Modal"
+      }
+    }
+  },
+  "groups": {},
+  "users": {},
+  "engagement": {
+    "action_favorite": {
+      "label_add": {
+        "element_contentHero": {
+          "category": "Engagement",
+          "action": "Favorite",
+          "label": "Add",
+          "element": "Content Hero"
+        }
+      }
+    }
+  },
+  "interaction": {}
+}

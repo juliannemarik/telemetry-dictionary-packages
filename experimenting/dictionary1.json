@@ -1,0 +1,76 @@
+{
+  "content": {
+    "action_create": {
+      "details_upload": {
+        "element_navbar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "Upload",
+          "element": "Nav Bar"
+        }
+      },
+      "details_url": {
+        "element_navbar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "URL",
+          "element": "Nav Bar"
+        }
+      },
+      "details_mapSurvey": {
+        "element_navbar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "Map Survey",
+          "element": "Nav Bar"
+        }
+      },
+      "details_poll": {
+        "element_navbar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "Poll",
+          "element": "Nav Bar"
+        }
+      },
+      "details_questionnaire": {
+        "element_navbar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "Questionnaire",
+          "element": "Nav Bar"
+        }
+      },
+      "details_default": {
+        "element_navbar": {
+          "category": "Content",
+          "action": "Create",
+          "details": "Default",
+          "element": "Nav Bar"
+        }
+      },
+      "element_appBlocks": {
+        "category": "Content",
+        "action": "Create",
+        "element": "App Blocks"
+      },
+      "element_resultsList": {
+        "category": "Content",
+        "action": "Create",
+        "element": "Results List"
+      },
+      "element_contentHero": {
+        "category": "Content",
+        "action": "Create",
+        "element": "Content Hero"
+      }
+    },
+    "action_delete": {
+      "element_modal": {
+        "category": "Content",
+        "action": "Delete",
+        "element": "Modal"
+      }
+    }
+  }
+}
