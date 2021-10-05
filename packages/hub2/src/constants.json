@@ -12,7 +12,8 @@
     "FAVORITE": "Favorite"
   },
   "label": {
-    "ADD": "Add"
+    "ADD": "Add",
+    "REMOVE": "Remove"
   },
   "details": {
     "UPLOAD": "Upload",

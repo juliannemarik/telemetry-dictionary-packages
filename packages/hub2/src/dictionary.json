@@ -42,6 +42,14 @@
           "label": "Add",
           "element": "Content Hero"
         }
+      },
+      "label_remove": {
+        "element_contentHero": {
+          "category": "Engagement",
+          "action": "Favorite",
+          "label": "Remove",
+          "element": "Content Hero"
+        }
       }
     }
   },
