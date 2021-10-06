@@ -1,0 +1,1 @@
+- [ ] I used the `addEntry` script to add new dictionary entries
