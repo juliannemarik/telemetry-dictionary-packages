@@ -28,6 +28,15 @@
           "_": {
             "category": "Content",
             "action": "Delete"
+          },
+          "details": {
+            "upload": {
+              "_": {
+                "category": "Content",
+                "action": "Delete",
+                "details": "Upload"
+              }
+            }
           }
         }
       }
