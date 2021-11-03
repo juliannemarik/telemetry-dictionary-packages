@@ -1,0 +1,18 @@
+{
+  "name": "@juliannemarik/telemetry-dictionary-new4",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "addDimension": "ts-node ../../scripts/addDimension.ts new4",
+    "addConstant": "ts-node ../../scripts/addConstant.ts new4",
+    "addEntry": "ts-node ../../scripts/addEntry.ts new4"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
