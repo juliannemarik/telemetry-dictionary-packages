@@ -1,5 +1,5 @@
 {
-  "name": "@juliannemarik/telemetry-dictionary-PACKAGE_NAME",
+  "name": "@esri/telemetry-dictionary-PACKAGE_NAME",
   "version": "1.0.0",
   "main": "dist/index.js",
   "files": [
@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc",
     "addDimension": "ts-node ../../scripts/addDimension.ts PACKAGE_NAME",
+    "addConstant": "ts-node ../../scripts/addConstant.ts PACKAGE_NAME",
     "addEntry": "ts-node ../../scripts/addEntry.ts PACKAGE_NAME"
   },
   "license": "ISC",

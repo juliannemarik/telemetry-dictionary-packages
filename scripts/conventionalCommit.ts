@@ -3,7 +3,7 @@ const { writeFileSync: write, readdirSync: read } = require('fs');
 const { prompt } = require('inquirer');
 
 const PACKAGES_DIRECTORY_PATH = path.resolve(__dirname, '../packages');
-const COMMIT_MESSAGE_FILE = path.resolve(process.cwd(), '.git/COMMIT_EDITMSG');
+const COMMIT_MESSAGE_FILE = path.resolve(__dirname, '../.git/COMMIT_EDITMSG');
 
 const NEW = 'add a new dictionary';
 const ADD = 'add dictionary entry/entries';

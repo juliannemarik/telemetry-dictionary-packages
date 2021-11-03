@@ -22,10 +22,11 @@ const questions = [
 ];
 
 const init = async () => {
-  const { name, categories, dimensions } = await prompt(questions);
-
+  let { name, categories, dimensions } = await prompt(questions);
+  name = name.toLowerCase();
+  
   const PACKAGE_DIRECTORY_PATH = path.resolve(__dirname, `../packages/${name}`);
-  const TEMPLATE_DIRECTORY_PATH = path.resolve(__dirname, `./fixtures2`);
+  const TEMPLATE_DIRECTORY_PATH = path.resolve(__dirname, `./fixtures`);
 
   // build package structure:
   mkdir(PACKAGE_DIRECTORY_PATH);
@@ -42,15 +43,19 @@ const init = async () => {
   replace(`${PACKAGE_DIRECTORY_PATH}/package.json`, 'PACKAGE_NAME', `${name}`);
   replace(`${PACKAGE_DIRECTORY_PATH}/src/index.ts`, new RegExp(/\/\/\s/), '');
 
-  // add top-level categories to constants
+  // add top-level categories to constants and dictionary
   categories.replace(/,\s/g, ',').split(',').forEach(category => {
-    addConstant(name, 'category', category);
-    addEntry(name, {}, category);
+    if (category) {
+      addConstant(name, 'category', category);
+      addEntry(name, {}, `category.${category.toLowerCase()}`);
+    }
   });
 
   // add additional custom dimensions to constants
   dimensions.replace(/,\s/g, ',').split(',').forEach(dimension => {
-    addConstant(name, dimension, '');
+    if (dimension) {
+      addConstant(name, dimension, '');
+    }
   });
 }
 
