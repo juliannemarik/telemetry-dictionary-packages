@@ -4,7 +4,11 @@
     "GROUPS": "Groups",
     "USERS": "Users"
   },
-  "ACTION": {},
+  "ACTION": {
+    "CREATE": "Create"
+  },
   "LABEL": {},
-  "DETAILS": {}
+  "DETAILS": {
+    "UPLOAD": "Upload"
+  }
 }

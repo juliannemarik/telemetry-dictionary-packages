@@ -1,6 +1,20 @@
 {
   "category": {
-    "content": {},
+    "content": {
+      "action": {
+        "create": {
+          "details": {
+            "upload": {
+              "_": {
+                "category": "Content",
+                "action": "Create",
+                "details": "Upload"
+              }
+            }
+          }
+        }
+      }
+    },
     "groups": {},
     "users": {}
   }
