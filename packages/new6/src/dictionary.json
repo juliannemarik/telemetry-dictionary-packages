@@ -10,6 +10,13 @@
                 "action": "Create",
                 "details": "Upload"
               }
+            },
+            "url": {
+              "_": {
+                "category": "Content",
+                "action": "Create",
+                "details": "Url"
+              }
             }
           }
         }

@@ -2,7 +2,7 @@
   "content": {
     "action_create": {
       "element_appBlocks": {
-        "category": "Content Test",
+        "category": "Content",
         "action": "Create",
         "element": "App Blocks"
       },
