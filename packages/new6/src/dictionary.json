@@ -18,6 +18,10 @@
                 "details": "Url"
               }
             }
+          },
+          "_": {
+            "category": "Content",
+            "action": "Create"
           }
         }
       }
