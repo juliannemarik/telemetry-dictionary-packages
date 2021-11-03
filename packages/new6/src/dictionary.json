@@ -23,6 +23,12 @@
             "category": "Content",
             "action": "Create"
           }
+        },
+        "delete": {
+          "_": {
+            "category": "Content",
+            "action": "Delete"
+          }
         }
       }
     },

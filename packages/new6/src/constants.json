@@ -5,7 +5,8 @@
     "USERS": "Users"
   },
   "ACTION": {
-    "CREATE": "Create"
+    "CREATE": "Create",
+    "DELETE": "Delete"
   },
   "LABEL": {},
   "DETAILS": {
