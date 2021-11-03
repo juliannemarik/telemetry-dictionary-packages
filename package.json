@@ -16,8 +16,8 @@
     "commitmsg": "ts-node ./scripts/conventionalCommit.ts",
     "prepare": "is-ci || husky install",
     "prepublishOnly": "npm run lint",
-    "publish": "lerna run build && lerna publish --yes",
-    "publishTest": "lerna run build && lerna version --conventional-commits --conventional-graduate=* --yes && lerna publish from-git --yes",
+    "publishOld": "lerna run build && lerna publish --yes",
+    "publish": "lerna run build && lerna version --conventional-commits --conventional-graduate=* --yes && lerna publish from-git --yes",
     "publishManual": "lerna run build && HUSKY=0 lerna publish"
   },
   "repository": {
