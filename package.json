@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "new": "./scripts/new.sh",
-    "new2": "ts-node ./scripts/new2.ts",
+    "new": "ts-node ./scripts/new.ts",
+    "new2": "./scripts/new.sh",
     "format": "lerna run format",
     "lint": "lerna run lint",
     "rollup": "lerna run rollup",
