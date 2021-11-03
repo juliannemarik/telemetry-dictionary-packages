@@ -1,5 +1,5 @@
 {
-  "name": "@esri/telemetry-dictionary-PACKAGE_NAME",
+  "name": "@juliannemarik/telemetry-dictionary-PACKAGE_NAME",
   "version": "1.0.0",
   "main": "dist/index.js",
   "files": [
