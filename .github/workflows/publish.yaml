@@ -32,6 +32,6 @@ jobs:
         run: yarn install
 
       - name: Publish package
-        run: yarn run publish
+        run: yarn run publishTest
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
