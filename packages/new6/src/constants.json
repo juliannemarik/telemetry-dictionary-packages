@@ -8,7 +8,9 @@
     "CREATE": "Create",
     "DELETE": "Delete"
   },
-  "LABEL": {},
+  "LABEL": {
+    "APPLICATION": "Application"
+  },
   "DETAILS": {
     "UPLOAD": "Upload",
     "URL": "Url"
