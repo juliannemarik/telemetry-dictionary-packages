@@ -22,6 +22,15 @@
           "_": {
             "category": "Content",
             "action": "Create"
+          },
+          "label": {
+            "application": {
+              "_": {
+                "category": "Content",
+                "action": "Create",
+                "label": "Application"
+              }
+            }
           }
         },
         "delete": {
