@@ -9,7 +9,8 @@
     "DELETE": "Delete"
   },
   "LABEL": {
-    "APPLICATION": "Application"
+    "APPLICATION": "Application",
+    "REPORT": "Report"
   },
   "DETAILS": {
     "UPLOAD": "Upload",
