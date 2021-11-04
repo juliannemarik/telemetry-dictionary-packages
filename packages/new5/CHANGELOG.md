@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-new5@1.1.0...@juliannemarik/telemetry-dictionary-new5@1.1.1) (2021-11-04)
+
+**Note:** Version bump only for package @juliannemarik/telemetry-dictionary-new5
+
+
+
+
+
 # 1.1.0 (2021-11-04)
 
 
