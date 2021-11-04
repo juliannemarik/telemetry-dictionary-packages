@@ -30,6 +30,13 @@
                 "action": "Create",
                 "label": "Application"
               }
+            },
+            "report": {
+              "_": {
+                "category": "Content",
+                "action": "Create",
+                "label": "Report"
+              }
             }
           }
         },
