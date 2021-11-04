@@ -10,7 +10,8 @@
   },
   "LABEL": {
     "APPLICATION": "Application",
-    "REPORT": "Report"
+    "REPORT": "Report",
+    "MAP": "Map"
   },
   "DETAILS": {
     "UPLOAD": "Upload",
