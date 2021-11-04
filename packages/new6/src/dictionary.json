@@ -37,6 +37,13 @@
                 "action": "Create",
                 "label": "Report"
               }
+            },
+            "map": {
+              "_": {
+                "category": "Content",
+                "action": "Create",
+                "label": "Map"
+              }
             }
           }
         },
