@@ -1,5 +1,5 @@
 import dictionaryConfig from './dictionary.json';
-import * as mapKeysDeep from 'map-keys-deep';
+import mapKeysDeep from 'map-keys-deep';
 
 const translations = {
   details: 'dimension1'
