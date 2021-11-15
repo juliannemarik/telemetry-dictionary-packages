@@ -37,4 +37,3 @@ export class Hello {
 export const testingDictionary = new Hello(dictionaryConfig)
 // console.log('DICTIONARY', util.inspect(dictionary, { showHidden: false, depth: null, colors: true }));
 // console.log('DICTIONARY', util.inspect(dictionary.category.enggement.action.download.details.content.convert(), { showHidden: false, depth: null, colors: true }));
-// console.log('DICTIONARY', util.inspect(dictionary.category, { showHidden: false, depth: null, colors: true }));
