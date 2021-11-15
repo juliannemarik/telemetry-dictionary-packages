@@ -1,6 +1,6 @@
 {
   "name": "@juliannemarik/telemetry-dictionary-new6",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "main": "dist/index.js",
   "files": [
     "dist/**/*"
