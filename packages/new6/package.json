@@ -15,5 +15,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "c6bd904f368a38bca28491a4e51501dd58d27606"
+  "gitHead": "c6bd904f368a38bca28491a4e51501dd58d27606",
+  "dependencies": {
+    "map-keys-deep": "^0.0.2"
+  }
 }
