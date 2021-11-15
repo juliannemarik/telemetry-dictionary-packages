@@ -1,39 +1,30 @@
-import { mapKeys, pickBy } from 'lodash';
 import dictionaryConfig from './dictionary.json';
+import { mapKeysDeep } from 'lodash';
 
 const translations = {
   details: 'dimension1'
 }
 
-export class Hello {
-  [key: string]: any;
-  
-  constructor (obj) {
-    const keys = Object.keys(obj)
-    keys.forEach(key => {
-      if (typeof obj[key] === 'object') {
-        this[ key ] = new Hello(obj[ key ])
-      } else {
-        this[ key ] = obj[key]
-      }
-    })
-  };
-
-  convert () {
-    const translated = 
-      mapKeys(this, (value, key) => {
-        if (translations[key]) {
-          return translations[key]
+const DynamicObject: new <T>(obj: T) => T = function (obj) {
+  for (const prop in obj) {
+    Object.defineProperty(this, prop, {
+      get: function () {
+        if (typeof obj[prop] === 'object') {
+          return mapKeysDeep(obj[prop], (key) => {
+            if (translations[key]) {
+              return translations[key];
+            }
+            return key;
+          });
         }
-        return key
-      })
-      
-      return pickBy(translated, (value) => {
-        return typeof value === 'string'
-      })
+        return obj[prop];
+      },
+      enumerable: true,
+      configurable: false,
+    });
   }
-}
+} as any;
 
-export const testingDictionary = new Hello(dictionaryConfig)
+export const dictionary = new DynamicObject(dictionaryConfig)
 // console.log('DICTIONARY', util.inspect(dictionary, { showHidden: false, depth: null, colors: true }));
 // console.log('DICTIONARY', util.inspect(dictionary.category.enggement.action.download.details.content.convert(), { showHidden: false, depth: null, colors: true }));

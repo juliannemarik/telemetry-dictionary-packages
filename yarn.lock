@@ -2850,6 +2850,11 @@ make-fetch-happen@^9.0.1:
     socks-proxy-agent "^6.0.0"
     ssri "^8.0.0"
 
+map-keys-deep@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/map-keys-deep/-/map-keys-deep-0.0.2.tgz#4a30d89caf49956d90a34692084330a7bc7433e0"
+  integrity sha512-2O0AzQOr6GV/X73JwLmL0Qq6O3CC8JjsoNaP+kqsQufHwNAEuhaBFA/dkDmE4aqwBGBkYK5OUWCAaRfMnGkdMg==
+
 map-obj@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"

@@ -11,6 +11,7 @@
     "noImplicitAny": false,                               /* Enable error reporting for expressions and declarations with an implied `any` type.. */
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "noImplicitThis": false
   },
   "include": ["packages"],
   "exclude": ["node_modules"]
