@@ -1,5 +1,5 @@
 import dictionaryConfig from './dictionary.json';
-import { mapKeysDeep } from 'lodash';
+import * as mapKeysDeep from 'map-keys-deep';
 
 const translations = {
   details: 'dimension1'
