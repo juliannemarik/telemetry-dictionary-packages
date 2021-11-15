@@ -1,6 +1,6 @@
 {
   "name": "@juliannemarik/telemetry-dictionary-new6",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "main": "dist/index.js",
   "files": [
     "dist/**/*"
@@ -14,5 +14,6 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "c6bd904f368a38bca28491a4e51501dd58d27606"
 }
