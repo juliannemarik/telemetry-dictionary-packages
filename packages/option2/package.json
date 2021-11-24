@@ -1,0 +1,21 @@
+{
+  "name": "@juliannemarik/telemetry-dictionary-option2",
+  "version": "1.0.0-alpha.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "addDimension": "ts-node ../../scripts/addDimension.ts option2",
+    "addConstant": "ts-node ../../scripts/addConstant.ts option2",
+    "addEntry": "ts-node ../../scripts/addEntry.ts option2"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "deep-map-keys": "^2.0.1"
+  }
+}
