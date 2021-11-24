@@ -1,0 +1,17 @@
+{
+  "details": 1,
+  "userType": 2,
+  "id": 3,
+  "type": 4,
+  "organizationId": 5,
+  "groupId": 6,
+  "groupAccess": 7,
+  "groupType": 8,
+  "search": 9,
+  "groupOrgId": 10,
+  "siteId": 11,
+  "access": 12,
+  "contentOrgId": 13,
+  "element": 14,
+  "response": 15
+}

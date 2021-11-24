@@ -1,0 +1,26 @@
+{
+  "category": {
+    "content": {},
+    "engagement": {
+      "action": {
+        "download": {
+          "label": {
+            "content": {
+              "category": "Engagement",
+              "action": "Download",
+              "label": "Content",
+              "details": {
+                "pdf": {
+                  "category": "Engagement",
+                  "action": "Download",
+                  "label": "Content",
+                  "details": "PDF"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

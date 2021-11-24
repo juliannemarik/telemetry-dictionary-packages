@@ -21,7 +21,8 @@
     "publishManual": "lerna run build && HUSKY=0 lerna publish",
     "option1": "ts-node packages/option1/src/dictionary.ts",
     "option2": "ts-node packages/option2/src/dictionary.ts",
-    "option3": "ts-node packages/option3/src/dictionary.ts"
+    "option3": "ts-node packages/option3/src/dictionary.ts",
+    "option4": "ts-node packages/option4/src/dictionary.ts"
   },
   "repository": {
     "type": "git",
