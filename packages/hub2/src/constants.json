@@ -14,5 +14,7 @@
   "label": {
     "CONTENT": "Content"
   },
-  "details": {}
+  "details": {
+    "PDF": "PDF"
+  }
 }

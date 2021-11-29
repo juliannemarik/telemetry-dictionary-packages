@@ -6,10 +6,18 @@
         "download": {
           "label": {
             "content": {
-              "_": {
-                "category": "Engagement",
-                "action": "Download",
-                "label": "Content"
+              "category": "Engagement",
+              "action": "Download",
+              "label": "Content",
+              "details": {
+                "pdf": {
+                  "_": {
+                    "category": "Engagement",
+                    "action": "Download",
+                    "label": "Content",
+                    "details": "PDF"
+                  }
+                }
               }
             }
           }
