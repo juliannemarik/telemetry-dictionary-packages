@@ -6,9 +6,11 @@
         "download": {
           "label": {
             "content": {
-              "category": "Engagement",
-              "action": "Download",
-              "label": "Content"
+              "_": {
+                "category": "Engagement",
+                "action": "Download",
+                "label": "Content"
+              }
             }
           }
         }
