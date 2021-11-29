@@ -1,0 +1,15 @@
+{
+  "name": "@juliannemarik/telemetry-dictionary-base",
+  "version": "1.0.0-alpha.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
