@@ -2,4 +2,4 @@
 // import telemetryConstants from './constants.json';
 
 // export const dictionary = telemetryDictionary;
-// export const CONSTANTS = telemetryConstants;
+// export const constants = telemetryConstants;
