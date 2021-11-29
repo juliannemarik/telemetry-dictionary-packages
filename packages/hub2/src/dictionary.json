@@ -1,57 +1,23 @@
 {
-  "content": {
-    "action_create": {
-      "element_appBlocks": {
-        "category": "Content Test",
-        "action": "Create",
-        "element": "App Blocks"
-      },
-      "details_upload": {
-        "element_navBar": {
-          "category": "Content",
-          "action": "Create",
-          "details": "Upload",
-          "element": "Nav Bar"
-        }
-      },
-      "details_url": {
-        "element_navBar": {
-          "category": "Content",
-          "action": "Create",
-          "details": "URL",
-          "element": "Nav Bar"
+  "category": {
+    "content": {},
+    "engagement": {
+      "action": {
+        "download": {
+          "label": {
+            "content": {
+              "category": "Engagement",
+              "action": "Download",
+              "label": "Content"
+            }
+          }
         }
       }
     },
-    "action_delete": {
-      "element_modal": {
-        "category": "Content",
-        "action": "Delete",
-        "element": "Modal"
-      }
-    }
-  },
-  "groups": {},
-  "users": {},
-  "engagement": {
-    "action_favorite": {
-      "label_add": {
-        "element_contentHero": {
-          "category": "Engagement",
-          "action": "Favorite",
-          "label": "Add",
-          "element": "Content Hero"
-        }
-      },
-      "label_remove": {
-        "element_contentHero": {
-          "category": "Engagement",
-          "action": "Favorite",
-          "label": "Remove",
-          "element": "Content Hero"
-        }
-      }
-    }
-  },
-  "interaction": {}
+    "interaction": {},
+    "groups": {},
+    "navigation": {},
+    "users": {},
+    "org": {}
+  }
 }

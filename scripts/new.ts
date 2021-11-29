@@ -26,7 +26,7 @@ const init = async () => {
   name = name.toLowerCase();
   
   const PACKAGE_DIRECTORY_PATH = path.resolve(__dirname, `../packages/${name}`);
-  const TEMPLATE_DIRECTORY_PATH = path.resolve(__dirname, `./fixtures2`);
+  const TEMPLATE_DIRECTORY_PATH = path.resolve(__dirname, `./fixtures`);
 
   // build package structure:
   mkdir(PACKAGE_DIRECTORY_PATH);

@@ -27,7 +27,7 @@ const questions = [
 
 const init = async () => {
   const { dimension, value } = await prompt(questions);
-  addConstant(DICTIONARY_PACKAGE, dimension.toUpperCase(), value);
+  addConstant(DICTIONARY_PACKAGE, dimension, value);
 }
 
 init ();

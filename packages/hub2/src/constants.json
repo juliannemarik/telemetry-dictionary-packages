@@ -1,28 +1,18 @@
 {
   "category": {
     "CONTENT": "Content",
-    "GROUPS": "Groups",
-    "USERS": "Users",
     "ENGAGEMENT": "Engagement",
-    "INTERACTION": "Interaction"
+    "INTERACTION": "Interaction",
+    "GROUPS": "Groups",
+    "NAVIGATION": "Navigation",
+    "USERS": "Users",
+    "ORG": "Org"
   },
   "action": {
-    "CREATE": "Create",
-    "DELETE": "Delete",
-    "FAVORITE": "Favorite"
+    "DOWNLOAD": "Download"
   },
   "label": {
-    "ADD": "Add",
-    "REMOVE": "Remove"
+    "CONTENT": "Content"
   },
-  "details": {
-    "UPLOAD": "Upload",
-    "URL": "URL"
-  },
-  "element": {
-    "APP_BLOCKS": "App Blocks",
-    "NAV_BAR": "Nav Bar",
-    "MODAL": "Modal",
-    "CONTENT_HERO": "Content Hero"
-  }
+  "details": {}
 }

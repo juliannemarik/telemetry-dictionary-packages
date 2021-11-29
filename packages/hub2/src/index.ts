@@ -1,5 +1,5 @@
-import configs from './dictionary.json';
-import constants from './constants.json';
+import telemetryDictionary from './dictionary.json';
+import telemetryConstants from './constants.json';
 
-export const telemetryDictionary = configs;
-export const telemetryConstants = constants;
+export const dictionary = telemetryDictionary;
+export const constants = telemetryConstants;
