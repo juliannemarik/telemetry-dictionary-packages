@@ -39,7 +39,7 @@ const init = async () => {
       const val = answers[`${dimension}_new`]
       
       answers = { [dimension]: val }
-      addConstant(DICTIONARY_PACKAGE, dimension.toUpperCase(), val)
+      addConstant(DICTIONARY_PACKAGE, dimension, val)
       isNew = true;
     }
     
@@ -76,7 +76,7 @@ const searchConstants = (answers, input) => {
 }
 
 const readConstants = (dimension: string) => {
-  const constants = require(CONSTANT_FILE_PATH)[dimension.toUpperCase()];
+  const constants = require(CONSTANT_FILE_PATH)[dimension];
   return Object.values(constants);
 }
 

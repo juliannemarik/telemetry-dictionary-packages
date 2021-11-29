@@ -9,11 +9,11 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "new": "ts-node ./scripts/new.ts",
-    "new2": "./scripts/new.sh",
+    "new_old": "./scripts/new.sh",
     "format": "lerna run format",
     "lint": "lerna run lint",
     "rollup": "lerna run rollup",
-    "commitmsg": "ts-node ./scripts/conventionalCommit.ts",
+    "prepareCommitMsg": "ts-node ./scripts/prepareCommitMsg.ts",
     "prepare": "is-ci || husky install",
     "prepublishOnly": "npm run lint",
     "publishOld": "lerna run build && lerna publish --yes",

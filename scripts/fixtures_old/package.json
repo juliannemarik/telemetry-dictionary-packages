@@ -1,0 +1,17 @@
+{
+  "name": "@juliannemarik/telemetry-dictionary-PACKAGE_NAME",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "rollup": "ts-node ../../scripts/rollup.ts"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

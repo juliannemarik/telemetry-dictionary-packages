@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc",
     "addDimension": "ts-node ../../scripts/addDimension.ts hub2",
+    "addConstant": "ts-node ../../scripts/addConstant.ts hub2",
     "addEntry": "ts-node ../../scripts/addEntry.ts hub2"
   },
   "license": "ISC",

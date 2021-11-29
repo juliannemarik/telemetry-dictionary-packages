@@ -1,14 +1,15 @@
 {
   "name": "@juliannemarik/telemetry-dictionary-PACKAGE_NAME",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
   "scripts": {
     "build": "tsc",
-    "rollup": "ts-node ../../scripts/rollup.ts"
+    "addDimension": "ts-node ../../scripts/addDimension.ts PACKAGE_NAME",
+    "addConstant": "ts-node ../../scripts/addConstant.ts PACKAGE_NAME",
+    "addEntry": "ts-node ../../scripts/addEntry.ts PACKAGE_NAME"
   },
   "license": "ISC",
   "publishConfig": {

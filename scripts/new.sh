@@ -7,7 +7,7 @@ ___________________________________________________
 read name
 
 PACKAGE_DIRECTORY_PATH="${PWD}/packages/${name}"
-TEMPLATE_DIRECTORY_PATH="${PWD}/scripts/fixtures"
+TEMPLATE_DIRECTORY_PATH="${PWD}/scripts/fixtures_old"
 
 # build package structure
 mkdir "${PACKAGE_DIRECTORY_PATH}"
