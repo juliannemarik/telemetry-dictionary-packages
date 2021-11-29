@@ -11,12 +11,10 @@
               "label": "Content",
               "details": {
                 "pdf": {
-                  "_": {
-                    "category": "Engagement",
-                    "action": "Download",
-                    "label": "Content",
-                    "details": "PDF"
-                  }
+                  "category": "Engagement",
+                  "action": "Download",
+                  "label": "Content",
+                  "details": "PDF"
                 }
               }
             }
