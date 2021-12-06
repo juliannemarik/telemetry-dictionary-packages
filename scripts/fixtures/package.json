@@ -8,7 +8,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "addDimension": "ts-node ../../scripts/addDimension.ts PACKAGE_NAME",
     "addConstant": "ts-node ../../scripts/addConstant.ts PACKAGE_NAME",
     "addEntry": "ts-node ../../scripts/addEntry.ts PACKAGE_NAME"
   },
