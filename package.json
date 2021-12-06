@@ -18,7 +18,7 @@
     "prepublishOnly": "npm run lint",
     "publishOld": "lerna run build && lerna publish --yes",
     "publish": "lerna run build && lerna version --conventional-commits --conventional-graduate=* --yes && lerna publish from-git --yes",
-    "publishManual": "lerna run build && HUSKY=0 lerna publish"
+    "publishManual": "lerna run build && lerna version --conventional-commits --conventional-graduate=* && HUSKY=0 && lerna publish"
   },
   "repository": {
     "type": "git",
