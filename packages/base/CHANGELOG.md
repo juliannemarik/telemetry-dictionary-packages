@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.1 (2021-12-06)
+
+
+### Bug Fixes
+
+* **base:** update read function ([9af0196](https://github.com/juliannemarik/telemetry-dictionary-packages/commit/9af0196760ce3a59c011b763f610099d1ac57ee6))
+
+
+
+
+
 # [1.1.0](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-base@1.0.1...@juliannemarik/telemetry-dictionary-base@1.1.0) (2021-11-29)
 
 
