@@ -12,6 +12,7 @@ inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'))
 const DICTIONARY_PACKAGE = process.argv.slice(2)[0];
 const DICTIONARY_FILE_PATH = path.resolve(__dirname, `../packages/${DICTIONARY_PACKAGE}/src/dictionary.json`);
 const CONSTANT_FILE_PATH = path.resolve(__dirname, `../packages/${DICTIONARY_PACKAGE}/src/constants.json`);
+const DIMENSIONS_FILE_PATH = path.resolve(__dirname, `../packages/${DICTIONARY_PACKAGE}/src/dimensions`);
 
 const init = async () => {
   const dictionary = require(DICTIONARY_FILE_PATH);
@@ -46,7 +47,7 @@ const init = async () => {
     entry = Object.assign(entry, answers)
   }
   
-  set(dictionary, [ ...entryPath, '_' ], { ...entry });
+  set(dictionary, entryPath, { ...entry });
   write(DICTIONARY_FILE_PATH, JSON.stringify(dictionary, null, 2), 'utf-8')
   console.log(`\nSuccess! The following entry (and its intermediaries) was added to your dictionary: \n\n${util.inspect(entry, { showHidden: false, depth: null, colors: true })}\n\nat the following path: "${[ ...entryPath, '_' ].join('.')}"\n`);
 }
@@ -77,12 +78,12 @@ const searchConstants = (answers, input) => {
 
 const readConstants = (dimension: string) => {
   const constants = require(CONSTANT_FILE_PATH)[dimension];
-  return Object.values(constants);
+  return constants ? Object.values(constants) : [];
 }
 
 const readDimensions = () => {
-  const constants = require(CONSTANT_FILE_PATH);
-  return Object.keys(constants);
+  const { dictionaryDimensions } = require(DIMENSIONS_FILE_PATH);
+  return dictionaryDimensions;
 }
 
 const generateQuestions = (dimension: string, entryPath: string[], isNew: boolean ) => {  

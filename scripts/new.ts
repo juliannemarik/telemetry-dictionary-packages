@@ -12,21 +12,17 @@ const questions = [
   {
     type: 'message',
     name: 'categories',
-    message: 'Please enter the top-level categories for your dictionary (as a comma-separated list):'
-  },
-  {
-    type: 'message',
-    name: 'dimensions',
-    message: 'Please enter any additional dimensions you\'d like to log in your dictionary (as a comma-separated list). Note: category, action & label are the defaults.'
+    message: 'Please enter the top-level categories for your dictionary as a comma-separated list (optional - press enter to skip):'
   }
 ];
 
 const init = async () => {
-  let { name, categories, dimensions } = await prompt(questions);
+  let { name, categories } = await prompt(questions);
   name = name.toLowerCase();
   
   const PACKAGE_DIRECTORY_PATH = path.resolve(__dirname, `../packages/${name}`);
   const TEMPLATE_DIRECTORY_PATH = path.resolve(__dirname, `./fixtures`);
+  const COMMON_DICTIONARY_PATH = path.resolve(__dirname, `../packages/base`);
 
   // build package structure:
   mkdir(PACKAGE_DIRECTORY_PATH);
@@ -36,25 +32,23 @@ const init = async () => {
   copy(`${TEMPLATE_DIRECTORY_PATH}/index.ts`, `${PACKAGE_DIRECTORY_PATH}/src/index.ts`);
   copy(`${TEMPLATE_DIRECTORY_PATH}/dictionary.json`, `${PACKAGE_DIRECTORY_PATH}/src/dictionary.json`);
   copy(`${TEMPLATE_DIRECTORY_PATH}/constants.json`, `${PACKAGE_DIRECTORY_PATH}/src/constants.json`);
+  copy(`${TEMPLATE_DIRECTORY_PATH}/dimensions.ts`, `${PACKAGE_DIRECTORY_PATH}/src/dimensions.ts`);
   copy(`${TEMPLATE_DIRECTORY_PATH}/ts_config.json`, `${PACKAGE_DIRECTORY_PATH}/tsconfig.json`);
   copy(`${TEMPLATE_DIRECTORY_PATH}/package.json`, `${PACKAGE_DIRECTORY_PATH}/package.json`);
 
   // update files to be package-specific:
-  replace(`${PACKAGE_DIRECTORY_PATH}/package.json`, 'PACKAGE_NAME', `${name}`);
-  replace(`${PACKAGE_DIRECTORY_PATH}/src/index.ts`, new RegExp(/\/\/\s/), '');
+  const { version } = require(`${COMMON_DICTIONARY_PATH}/package.json`);
+  replace(`${PACKAGE_DIRECTORY_PATH}/package.json`, [ 'PACKAGE_NAME', 'COMMON_VERSION' ], [ `${name}`, `${version}` ]);
+
+  // un-comment file(s)
+  const commentRegex = new RegExp(/\/\/\s/);
+  replace(`${PACKAGE_DIRECTORY_PATH}/src/index.ts`, [ commentRegex ], [ '' ]);
 
   // add top-level categories to constants and dictionary
   categories.replace(/,\s/g, ',').split(',').forEach(category => {
     if (category) {
       addConstant(name, 'category', category);
       addEntry(name, {}, `category.${category.toLowerCase()}`);
-    }
-  });
-
-  // add additional custom dimensions to constants
-  dimensions.replace(/,\s/g, ',').split(',').forEach(dimension => {
-    if (dimension) {
-      addConstant(name, dimension, '');
     }
   });
 }

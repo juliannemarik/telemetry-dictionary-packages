@@ -15,5 +15,8 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@juliannemarik/telemetry-dictionary-base": "^COMMON_VERSION"
   }
 }

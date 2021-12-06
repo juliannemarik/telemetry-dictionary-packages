@@ -3,11 +3,11 @@ const { prompt } = require('inquirer');
 const { addConstant } = require('./utils/addConstant');
 
 const DICTIONARY_PACKAGE = process.argv.slice(2)[0];
-const CONSTANT_FILE_PATH = path.resolve(__dirname, `../packages/${DICTIONARY_PACKAGE}/src/constants.json`);
+const DIMENSIONS_FILE_PATH = path.resolve(__dirname, `../packages/${DICTIONARY_PACKAGE}/src/dimensions`);
 
 const readDimensions = () => {
-  const constants = require(CONSTANT_FILE_PATH);
-  return Object.keys(constants);
+  const { constantDimensions } = require(DIMENSIONS_FILE_PATH);
+  return constantDimensions;
 }
 
 const questions = [
