@@ -1,10 +1,13 @@
 const replaceInFile = require('replace-in-file');
 
-export const replace = async (filePath, searchString, replaceString) => {
+export const replace = async (filePath, searchStrings, replaceStrings) => {
+  const from = searchStrings.map(string => new RegExp(string, 'g'));
+  const to = replaceStrings.map(string => string);
+
   await replaceInFile({
     files: filePath,
-    from: new RegExp(searchString, 'g'),
-    to: replaceString,
+    from,
+    to,
   });
 }
 
