@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-base@1.1.1...@juliannemarik/telemetry-dictionary-base@2.0.0) (2022-05-09)
+
+
+### Features
+
+* **base:** add a new dictionary ([5900175](https://github.com/juliannemarik/telemetry-dictionary-packages/commit/5900175c91bb4fa2d07ed4b4e9bf27849f528afc))
+
+
+### BREAKING CHANGES
+
+* **base:** removes exported mapApplicationKeys function
+
+
+
+
+
 ## 1.1.1 (2021-12-06)
 
 
