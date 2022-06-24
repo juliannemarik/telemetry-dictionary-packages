@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2022-06-24)
+
+
+### Features
+
+* **hub:** add dictionary entries as a csv ([297c582](https://github.com/juliannemarik/telemetry-dictionary-packages/commit/297c5825bcda8e17d173b2f55c3f5d3b059ff397))
+
+
+
+
+
 ## 1.2.8 (2021-11-03)
 
 **Note:** Version bump only for package @juliannemarik/telemetry-dictionary-hub

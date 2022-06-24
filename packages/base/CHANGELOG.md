@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-base@2.0.0...@juliannemarik/telemetry-dictionary-base@2.0.1) (2022-06-24)
+
+**Note:** Version bump only for package @juliannemarik/telemetry-dictionary-base
+
+
+
+
+
 # [2.0.0](https://github.com/juliannemarik/telemetry-dictionary-packages/compare/@juliannemarik/telemetry-dictionary-base@1.1.1...@juliannemarik/telemetry-dictionary-base@2.0.0) (2022-05-09)
 
 
