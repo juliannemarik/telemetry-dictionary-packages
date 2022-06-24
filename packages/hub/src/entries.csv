@@ -1,0 +1,23 @@
+"category","action","label","details"
+"Content","Delete",,
+"Content","Create",,
+"Interaction","Download",,
+"Content","Create","Upload",
+"Interaction","Download",,"Cache"
+"Interaction","Share","Link",
+"Navigation","External","Hub Status",
+"Navigation","Edit","Profile",
+"Navigation","On Page","Overview",
+"Navigation","On Page","Teams",
+"Navigation","On Page","Content",
+"Navigation","On Page","Favorites",
+"Interaction","Disable","Draw",
+"Interaction","Select","Content",
+"Interaction","Select","Groups",
+"Interaction","Deselect","Groups",
+"Interaction","Draw","Start","Polygon"
+"Interaction","Draw","Complete","Polygon"
+"Interaction","Draw","Delete","Polygon"
+"Interaction","Draw","Update","Polygon"
+"Interaction","Draw","Update","Polyline"
+"Interaction","Draw","Update","Point"
