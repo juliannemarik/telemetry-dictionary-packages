@@ -1,3 +1,90 @@
 "category","action","label","details"
-"Engagement","Download","Content",
-"Engagement","Download","Content","PDF"
+"Content","Delete",,
+"Content","Create",,
+"Content","Create","Upload",
+"Content","Create","URL",
+"Content","Update",,
+"Content","Update","Groups",
+"Interaction","Open","Popover","Share"
+"Interaction","Open","Popover","Details"
+"Interaction","Open","Popover","Options"
+"Interaction","Open","Popover","Help"
+"Interaction","Open","Post List",
+"Interaction","Open","Panel","Legend"
+"Interaction","Open","Search",
+"Interaction","Open","Thread",
+"Interaction","Open","Editor",
+"Interaction","Open","Table",
+"Interaction","Open","Modal","New Content"
+"Interaction","Open","Modal","Add Existing Content"
+"Interaction","Open","Modal","Add Content"
+"Interaction","Download",,
+"Interaction","Download",,"Cache"
+"Interaction","Download",,"Export"
+"Interaction","Share","Link",
+"Interaction","Zoom","In",
+"Interaction","Zoom","Out",
+"Interaction","Zoom","To",
+"Interaction","Close","Post List",
+"Interaction","Close","Thread",
+"Interaction","Close","Panel","Legend"
+"Interaction","Close","Search",
+"Interaction","Close","Editor",
+"Interaction","Close","Editor","Add Post"
+"Interaction","Close","Table",
+"Interaction","Close","Modal","Add Content"
+"Interaction","Close","Modal","New Content"
+"Interaction","Close","Modal","Add Existing Content"
+"Interaction","Search","Query",
+"Interaction","Search","Query","Focus"
+"Interaction","Search","Query","Lose Focus"
+"Interaction","Search","Filter",
+"Interaction","Search","Filter","Clear"
+"Interaction","Update","Category Card",
+"Interaction","Viewed","Recents",
+"Interaction","Viewed","Empty",
+"Interaction","Viewed","Post","Thread"
+"Interaction","Viewed","Post","Post List"
+"Interaction","Viewed","Filters","Hosted Downloads Disabled"
+"Interaction","Viewed","Filters","Hosted Downloads Enabled"
+"Interaction","Enable","Draw",
+"Interaction","Enable","Draw","Update"
+"Interaction","Enable","Select",
+"Interaction","Disable","Draw",
+"Interaction","Disable","Draw","Update"
+"Interaction","Disable","Select",
+"Interaction","Select","Content",
+"Interaction","Select","Content","Select Tool"
+"Interaction","Select","Groups",
+"Interaction","Select","Groups","Recents"
+"Interaction","Draw","Start","Polygon"
+"Interaction","Draw","Start","Polyline"
+"Interaction","Draw","Start","Point"
+"Interaction","Draw","Complete","Polygon"
+"Interaction","Draw","Complete","Polyline"
+"Interaction","Draw","Complete","Point"
+"Interaction","Draw","Delete","Polygon"
+"Interaction","Draw","Delete","Polyline"
+"Interaction","Draw","Delete","Point"
+"Interaction","Draw","Update","Polygon"
+"Interaction","Draw","Update","Polyline"
+"Interaction","Draw","Update","Point"
+"Interaction","Deselect","Groups",
+"Navigation","View","Content","DCAT"
+"Navigation","View","Content","DCAT-US-1.1"
+"Navigation","View","Content","DCAT-AP-2.0.1"
+"Navigation","View","Content","About"
+"Navigation","View","Content","Library"
+"Navigation","View","Users","Profile"
+"Navigation","View","Groups","Profile"
+"Navigation","View","Groups","About"
+"Navigation","External","Hub Status",
+"Navigation","External","Item Details",
+"Navigation","External","Link",
+"Navigation","Edit","Profile",
+"Navigation","Edit","Thumbnail",
+"Navigation","Edit","Bio",
+"Navigation","On Page","Overview",
+"Navigation","On Page","Teams",
+"Navigation","On Page","Content",
+"Navigation","On Page","Favorites",
