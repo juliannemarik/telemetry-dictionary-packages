@@ -1,30 +1,643 @@
 {
   "category": {
-    "content": {},
-    "engagement": {
+    "content": {
       "action": {
-        "download": {
+        "delete": {
+          "category": "Content",
+          "action": "Delete"
+        },
+        "create": {
+          "category": "Content",
+          "action": "Create",
           "label": {
-            "content": {
-              "category": "Engagement",
-              "action": "Download",
-              "label": "Content",
-              "details": {
-                "pdf": {
-                  "category": "Engagement",
-                  "action": "Download",
-                  "label": "Content",
-                  "details": "PDF"
-                }
-              }
+            "upload": {
+              "category": "Content",
+              "action": "Create",
+              "label": "Upload"
+            },
+            "url": {
+              "category": "Content",
+              "action": "Create",
+              "label": "URL"
+            }
+          }
+        },
+        "update": {
+          "category": "Content",
+          "action": "Update",
+          "label": {
+            "groups": {
+              "category": "Content",
+              "action": "Update",
+              "label": "Groups"
             }
           }
         }
       }
     },
-    "interaction": {},
+    "interaction": {
+      "action": {
+        "open": {
+          "label": {
+            "popover": {
+              "details": {
+                "share": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Popover",
+                  "details": "Share"
+                },
+                "details": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Popover",
+                  "details": "Details"
+                },
+                "options": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Popover",
+                  "details": "Options"
+                },
+                "help": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Popover",
+                  "details": "Help"
+                }
+              }
+            },
+            "postList": {
+              "category": "Interaction",
+              "action": "Open",
+              "label": "Post List"
+            },
+            "panel": {
+              "details": {
+                "legend": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Panel",
+                  "details": "Legend"
+                }
+              }
+            },
+            "search": {
+              "category": "Interaction",
+              "action": "Open",
+              "label": "Search"
+            },
+            "thread": {
+              "category": "Interaction",
+              "action": "Open",
+              "label": "Thread"
+            },
+            "editor": {
+              "category": "Interaction",
+              "action": "Open",
+              "label": "Editor"
+            },
+            "table": {
+              "category": "Interaction",
+              "action": "Open",
+              "label": "Table"
+            },
+            "modal": {
+              "details": {
+                "newContent": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Modal",
+                  "details": "New Content"
+                },
+                "addExistingContent": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Modal",
+                  "details": "Add Existing Content"
+                },
+                "addContent": {
+                  "category": "Interaction",
+                  "action": "Open",
+                  "label": "Modal",
+                  "details": "Add Content"
+                }
+              }
+            }
+          }
+        },
+        "download": {
+          "category": "Interaction",
+          "action": "Download",
+          "details": {
+            "cache": {
+              "category": "Interaction",
+              "action": "Download",
+              "details": "Cache"
+            },
+            "export": {
+              "category": "Interaction",
+              "action": "Download",
+              "details": "Export"
+            }
+          }
+        },
+        "share": {
+          "label": {
+            "link": {
+              "category": "Interaction",
+              "action": "Share",
+              "label": "Link"
+            }
+          }
+        },
+        "zoom": {
+          "label": {
+            "in": {
+              "category": "Interaction",
+              "action": "Zoom",
+              "label": "In"
+            },
+            "out": {
+              "category": "Interaction",
+              "action": "Zoom",
+              "label": "Out"
+            },
+            "to": {
+              "category": "Interaction",
+              "action": "Zoom",
+              "label": "To"
+            }
+          }
+        },
+        "close": {
+          "label": {
+            "postList": {
+              "category": "Interaction",
+              "action": "Close",
+              "label": "Post List"
+            },
+            "thread": {
+              "category": "Interaction",
+              "action": "Close",
+              "label": "Thread"
+            },
+            "panel": {
+              "details": {
+                "legend": {
+                  "category": "Interaction",
+                  "action": "Close",
+                  "label": "Panel",
+                  "details": "Legend"
+                }
+              }
+            },
+            "search": {
+              "category": "Interaction",
+              "action": "Close",
+              "label": "Search"
+            },
+            "editor": {
+              "category": "Interaction",
+              "action": "Close",
+              "label": "Editor",
+              "details": {
+                "addPost": {
+                  "category": "Interaction",
+                  "action": "Close",
+                  "label": "Editor",
+                  "details": "Add Post"
+                }
+              }
+            },
+            "table": {
+              "category": "Interaction",
+              "action": "Close",
+              "label": "Table"
+            },
+            "modal": {
+              "details": {
+                "addContent": {
+                  "category": "Interaction",
+                  "action": "Close",
+                  "label": "Modal",
+                  "details": "Add Content"
+                },
+                "newContent": {
+                  "category": "Interaction",
+                  "action": "Close",
+                  "label": "Modal",
+                  "details": "New Content"
+                },
+                "addExistingContent": {
+                  "category": "Interaction",
+                  "action": "Close",
+                  "label": "Modal",
+                  "details": "Add Existing Content"
+                }
+              }
+            }
+          }
+        },
+        "search": {
+          "label": {
+            "query": {
+              "category": "Interaction",
+              "action": "Search",
+              "label": "Query",
+              "details": {
+                "focus": {
+                  "category": "Interaction",
+                  "action": "Search",
+                  "label": "Query",
+                  "details": "Focus"
+                },
+                "loseFocus": {
+                  "category": "Interaction",
+                  "action": "Search",
+                  "label": "Query",
+                  "details": "Lose Focus"
+                }
+              }
+            },
+            "filter": {
+              "category": "Interaction",
+              "action": "Search",
+              "label": "Filter",
+              "details": {
+                "clear": {
+                  "category": "Interaction",
+                  "action": "Search",
+                  "label": "Filter",
+                  "details": "Clear"
+                }
+              }
+            }
+          }
+        },
+        "update": {
+          "label": {
+            "categoryCard": {
+              "category": "Interaction",
+              "action": "Update",
+              "label": "Category Card"
+            }
+          }
+        },
+        "viewed": {
+          "label": {
+            "recents": {
+              "category": "Interaction",
+              "action": "Viewed",
+              "label": "Recents"
+            },
+            "empty": {
+              "category": "Interaction",
+              "action": "Viewed",
+              "label": "Empty"
+            },
+            "post": {
+              "details": {
+                "thread": {
+                  "category": "Interaction",
+                  "action": "Viewed",
+                  "label": "Post",
+                  "details": "Thread"
+                },
+                "postList": {
+                  "category": "Interaction",
+                  "action": "Viewed",
+                  "label": "Post",
+                  "details": "Post List"
+                }
+              }
+            },
+            "filters": {
+              "details": {
+                "hostedDownloadsDisabled": {
+                  "category": "Interaction",
+                  "action": "Viewed",
+                  "label": "Filters",
+                  "details": "Hosted Downloads Disabled"
+                },
+                "hostedDownloadsEnabled": {
+                  "category": "Interaction",
+                  "action": "Viewed",
+                  "label": "Filters",
+                  "details": "Hosted Downloads Enabled"
+                }
+              }
+            }
+          }
+        },
+        "enable": {
+          "label": {
+            "draw": {
+              "category": "Interaction",
+              "action": "Enable",
+              "label": "Draw",
+              "details": {
+                "update": {
+                  "category": "Interaction",
+                  "action": "Enable",
+                  "label": "Draw",
+                  "details": "Update"
+                }
+              }
+            },
+            "select": {
+              "category": "Interaction",
+              "action": "Enable",
+              "label": "Select"
+            }
+          }
+        },
+        "disable": {
+          "label": {
+            "draw": {
+              "category": "Interaction",
+              "action": "Disable",
+              "label": "Draw",
+              "details": {
+                "update": {
+                  "category": "Interaction",
+                  "action": "Disable",
+                  "label": "Draw",
+                  "details": "Update"
+                }
+              }
+            },
+            "select": {
+              "category": "Interaction",
+              "action": "Disable",
+              "label": "Select"
+            }
+          }
+        },
+        "select": {
+          "label": {
+            "content": {
+              "category": "Interaction",
+              "action": "Select",
+              "label": "Content",
+              "details": {
+                "selectTool": {
+                  "category": "Interaction",
+                  "action": "Select",
+                  "label": "Content",
+                  "details": "Select Tool"
+                }
+              }
+            },
+            "groups": {
+              "category": "Interaction",
+              "action": "Select",
+              "label": "Groups",
+              "details": {
+                "recents": {
+                  "category": "Interaction",
+                  "action": "Select",
+                  "label": "Groups",
+                  "details": "Recents"
+                }
+              }
+            }
+          }
+        },
+        "draw": {
+          "label": {
+            "start": {
+              "details": {
+                "polygon": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Start",
+                  "details": "Polygon"
+                },
+                "polyline": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Start",
+                  "details": "Polyline"
+                },
+                "point": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Start",
+                  "details": "Point"
+                }
+              }
+            },
+            "complete": {
+              "details": {
+                "polygon": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Complete",
+                  "details": "Polygon"
+                },
+                "polyline": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Complete",
+                  "details": "Polyline"
+                },
+                "point": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Complete",
+                  "details": "Point"
+                }
+              }
+            },
+            "delete": {
+              "details": {
+                "polygon": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Delete",
+                  "details": "Polygon"
+                },
+                "polyline": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Delete",
+                  "details": "Polyline"
+                },
+                "point": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Delete",
+                  "details": "Point"
+                }
+              }
+            },
+            "update": {
+              "details": {
+                "polygon": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Update",
+                  "details": "Polygon"
+                },
+                "polyline": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Update",
+                  "details": "Polyline"
+                },
+                "point": {
+                  "category": "Interaction",
+                  "action": "Draw",
+                  "label": "Update",
+                  "details": "Point"
+                }
+              }
+            }
+          }
+        },
+        "deselect": {
+          "label": {
+            "groups": {
+              "category": "Interaction",
+              "action": "Deselect",
+              "label": "Groups"
+            }
+          }
+        }
+      }
+    },
     "groups": {},
-    "navigation": {},
+    "navigation": {
+      "action": {
+        "view": {
+          "label": {
+            "content": {
+              "details": {
+                "dcat": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Content",
+                  "details": "DCAT"
+                },
+                "dcatUs11": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Content",
+                  "details": "DCAT-US-1.1"
+                },
+                "dcatAp201": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Content",
+                  "details": "DCAT-AP-2.0.1"
+                },
+                "about": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Content",
+                  "details": "About"
+                },
+                "library": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Content",
+                  "details": "Library"
+                }
+              }
+            },
+            "users": {
+              "details": {
+                "profile": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Users",
+                  "details": "Profile"
+                }
+              }
+            },
+            "groups": {
+              "details": {
+                "profile": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Groups",
+                  "details": "Profile"
+                },
+                "about": {
+                  "category": "Navigation",
+                  "action": "View",
+                  "label": "Groups",
+                  "details": "About"
+                }
+              }
+            }
+          }
+        },
+        "external": {
+          "label": {
+            "hubStatus": {
+              "category": "Navigation",
+              "action": "External",
+              "label": "Hub Status"
+            },
+            "itemDetails": {
+              "category": "Navigation",
+              "action": "External",
+              "label": "Item Details"
+            },
+            "link": {
+              "category": "Navigation",
+              "action": "External",
+              "label": "Link"
+            }
+          }
+        },
+        "edit": {
+          "label": {
+            "profile": {
+              "category": "Navigation",
+              "action": "Edit",
+              "label": "Profile"
+            },
+            "thumbnail": {
+              "category": "Navigation",
+              "action": "Edit",
+              "label": "Thumbnail"
+            },
+            "bio": {
+              "category": "Navigation",
+              "action": "Edit",
+              "label": "Bio"
+            }
+          }
+        },
+        "onPage": {
+          "label": {
+            "overview": {
+              "category": "Navigation",
+              "action": "On Page",
+              "label": "Overview"
+            },
+            "teams": {
+              "category": "Navigation",
+              "action": "On Page",
+              "label": "Teams"
+            },
+            "content": {
+              "category": "Navigation",
+              "action": "On Page",
+              "label": "Content"
+            },
+            "favorites": {
+              "category": "Navigation",
+              "action": "On Page",
+              "label": "Favorites"
+            }
+          }
+        }
+      }
+    },
     "users": {},
     "org": {}
   }
