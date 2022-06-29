@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-
+    name: build & publish
     runs-on: ubuntu-latest
 
     steps:
@@ -30,6 +30,15 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+
+      - name: Generate Dictionary Spreadsheet 
+        run: yarn run generateDictionarySpreadsheet
+
+      - name: Commit Dictionary Spreadsheet
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'docs: generate dictionary spreadsheets'
+          add: '*.csv'
 
       - name: Publish package
         run: yarn run publish

@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
+    "generateDictionarySpreadsheet": "lerna run generateDictionarySpreadsheet",
     "new": "ts-node ./scripts/new.ts",
     "new_old": "./scripts/new.sh",
     "format": "lerna run format",
@@ -37,6 +38,7 @@
     "husky": "^7.0.0",
     "inquirer": "^8.1.2",
     "inquirer-autocomplete-prompt": "^1.4.0",
+    "json2csv": "^5.0.7",
     "lerna": "^4.0.0",
     "lodash": "^4.17.21",
     "pluralize": "^8.0.0",
